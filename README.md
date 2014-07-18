@@ -1,0 +1,4 @@
+Specs
+=====
+
+Specs for CocoaPods
