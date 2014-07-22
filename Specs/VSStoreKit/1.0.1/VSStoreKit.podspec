@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'VSStoreKit/Source/*'
   spec.requires_arc = true
   spec.framework    = 'StoreKit'
-  spec.dependency   = 'SCPStoreKitManager/SCPStoreKitReceiptValidator'
+  spec.dependency  'SCPStoreKitManager/SCPStoreKitReceiptValidator'
 end
