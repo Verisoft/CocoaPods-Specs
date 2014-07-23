@@ -1,4 +1,5 @@
 Pod::Spec.new do |spec|
+  spec.platform = :ios, "7.0"
   spec.name         = 'VSRequest'
   spec.version      = '1.0.0'
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
@@ -7,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSRequest/Source/*'
   spec.requires_arc = true
-  spec.dependency   = 'AFNetworking'
+  spec.dependency 'AFNetworking'
 end
