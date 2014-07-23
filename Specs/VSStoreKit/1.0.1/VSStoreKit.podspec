@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   spec.author       = {'Bruno Guidolim' => 'bruno.guidolim@verisoft.com.br'}
   spec.summary      = 'iOS StoreKit designed for Verisoft'
-  spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git', :branch => 'master'}
+  spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSStoreKit/Source/*'
   spec.requires_arc = true
   spec.framework    = 'StoreKit'
