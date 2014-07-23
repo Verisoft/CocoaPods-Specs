@@ -1,4 +1,6 @@
 Pod::Spec.new do |spec|
+  spec.platform 	= :ios, '7.0'	
+  spec.ios.deployment_target = '7.0'
   spec.name         = 'VSCoreDataEngine'
   spec.version      = '1.0.0'
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
