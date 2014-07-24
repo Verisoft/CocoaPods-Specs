@@ -1,6 +1,5 @@
 Pod::Spec.new do |spec|
   spec.platform   = :ios, '7.0' 
-  spec.ios.deployment_target = '7.0'
   spec.name         = 'VSStoreKit'
   spec.version      = '1.0.1'
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'

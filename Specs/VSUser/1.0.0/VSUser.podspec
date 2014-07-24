@@ -1,6 +1,5 @@
 Pod::Spec.new do |spec|
   spec.platform 	= :ios, '7.0'	
-  spec.ios.deployment_target = '7.0'
   spec.name         = 'VSUser'
   spec.version      = '1.0.0'
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
@@ -9,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSUser/Source/*'
   spec.requires_arc = true
-  spec.framework    = 'VSRequest','VSiCloudEngine'
+  spec.dependency 'VSRequest', 'VSiCloudEngine'
 end
