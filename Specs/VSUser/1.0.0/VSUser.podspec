@@ -8,5 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSUser/Source/*'
   spec.requires_arc = true
-  spec.dependency 'VSRequest', 'VSiCloudEngine'
+  spec.dependency 'VSRequest'
+  spec.dependency 'VSiCloudEngine'
+  spec.dependency 'VSCoreDataEngine'
 end
