@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = '1.0.0'
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   spec.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
-  spec.summary      = 'Default Help Flow for Claro's products.'
+  spec.summary      = 'Default Help Flow for Claro products.'
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'ClaroAjuda/Source/*'
   spec.requires_arc = true
