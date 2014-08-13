@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'ClaroAjuda/Source/*.{h,m}'
   spec.requires_arc = true
-  spec.resources    = 'ClaroAjuda/Source/*.{storyboard,png}'
+  spec.resources    = 'ClaroAjuda/Source/*.{storyboard,png,html}'
   spec.dependency 'TPKeyboardAvoiding'
   spec.dependency 'AFNetworking'
   spec.dependency 'ProgressHUD'
