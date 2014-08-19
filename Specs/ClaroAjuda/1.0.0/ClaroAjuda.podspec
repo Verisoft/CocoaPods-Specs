@@ -12,4 +12,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'TPKeyboardAvoiding'
   spec.dependency 'AFNetworking'
   spec.dependency 'ProgressHUD'
+  spec.dependency 'SZTextView'
 end
