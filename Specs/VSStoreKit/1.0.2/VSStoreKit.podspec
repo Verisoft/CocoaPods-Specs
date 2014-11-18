@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSStoreKit/Source/*'
   spec.requires_arc = true
-  spec.framework    = 'StoreKit’,’1.0.0’
-  spec.dependency 'VSRequest'
+  spec.framework    = 'StoreKit’
+  spec.dependency 'VSRequest’,’1.0.0’
 end
