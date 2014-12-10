@@ -8,5 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSSignature/Source/1.0.1/*'
   spec.requires_arc = true
-  spec.dependency 'VSUser','VSStoreKit'
+  spec.dependency 'VSUser'
+  spec.dependency 'VSStoreKit'
 end
