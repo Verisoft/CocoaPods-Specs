@@ -9,5 +9,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'VSStoreKit/Source/2.0.2/*'
   spec.requires_arc = true
   spec.framework    = 'StoreKit'
-  spec.dependency 'VSRequest','1.1.0'
+  spec.dependency 'VSRequest','1.1.1'
 end
