@@ -9,4 +9,5 @@ Pod::Spec.new do |spec|
   spec.source_files = 'VSRequest/Source/2.0.0/*'
   spec.requires_arc = true
   spec.dependency 'Alamofire'
+  spec.dependency 'SwiftyJSON'
 end
