@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "a252d912952787f55c830fd7d6cb3610b7982219"}
   s.dependency 'VSCoreDataEngine','>= 2.0.0'
   s.dependency 'VSRequest','>= 2.0.0'
-  s.dependency 'VSContext'
   s.dependency 'Zip'
   s.dependency 'SwiftHEXColors'
   s.dependency 'SVProgressHUD'
