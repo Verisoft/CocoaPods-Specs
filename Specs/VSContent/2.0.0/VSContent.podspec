@@ -19,31 +19,31 @@ Pod::Spec.new do |s|
 
   s.subspec 'PPT' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/*'
-    cs.dependency 'Content/Core'
+    cs.dependency 'VSContent/Core'
     cs.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git"}
   end
 
   s.subspec 'Video' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentVideo/2.0.0/*'
-    cs.dependency 'Content/Core'
+    cs.dependency 'VSContent/Core'
     cs.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git"}
   end
 
   s.subspec 'Quiz' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.0/*'
-    cs.dependency 'Content/Core'
+    cs.dependency 'VSContent/Core'
     cs.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git"}
   end
 
   s.subspec 'Link' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentLink/2.0.0/*'
-    cs.dependency 'Content/Core'
+    cs.dependency 'VSContent/Core'
     cs.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git"}
   end
 
   s.subspec 'Text' do |cs|
     cs.source_files = 'VSContent/ /ContentText/2.0.0/*'
-    cs.dependency 'Content/Core'
+    cs.dependency 'VSContent/Core'
     cs.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git"}
   end
 
