@@ -11,5 +11,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'VSCoreDataEngine','>= 2.0.0'
   spec.dependency 'Zip'
   spec.dependency 'SwiftHEXColors'
+  spec.dependency 'VSCoreDataEngine'
+  spec.dependency 'SwiftyJSON'
 end
 	

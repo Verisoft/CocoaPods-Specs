@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.dependency 'VSCoreDataEngine','>= 2.0.0'
   s.dependency 'VSRequest','>= 2.0.0'
   s.dependency 'VSContext'
+  s.dependency 'SwiftyJSON'
 
   s.subspec 'Core' do |cs|
     cs.source_files = 'VSContent/SwiftSource/Core/2.0.0/**/*'
