@@ -14,31 +14,31 @@ Pod::Spec.new do |s|
   s.dependency 'VSContext'
 
   s.subspec 'Core' do |cs|
-    cs.source_files = 'VSContent/SwiftSource/Core/2.0.0/*'
+    cs.source_files = 'VSContent/SwiftSource/Core/2.0.0/**/*'
   end
 
   s.subspec 'PPT' do |cs|
-    cs.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/*'
+    cs.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/**/*'
     cs.dependency 'VSContent/Core'
   end
 
   s.subspec 'Video' do |cs|
-    cs.source_files = 'VSContent/SwiftSource/ContentVideo/2.0.0/*'
+    cs.source_files = 'VSContent/SwiftSource/ContentVideo/2.0.0/**/*'
     cs.dependency 'VSContent/Core'
   end
 
   s.subspec 'Quiz' do |cs|
-    cs.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.0/*'
+    cs.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.0/**/*'
     cs.dependency 'VSContent/Core'
   end
 
   s.subspec 'Link' do |cs|
-    cs.source_files = 'VSContent/SwiftSource/ContentLink/2.0.0/*'
+    cs.source_files = 'VSContent/SwiftSource/ContentLink/2.0.0/**/*'
     cs.dependency 'VSContent/Core'
   end
 
   s.subspec 'Text' do |cs|
-    cs.source_files = 'VSContent/ /ContentText/2.0.0/*'
+    cs.source_files = 'VSContent/ /ContentText/2.0.0/**/*'
     cs.dependency 'VSContent/Core'
   end
 
