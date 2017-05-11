@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.dependency 'SwiftHEXColors'
   s.dependency 'SVProgressHUD'
   s.dependency 'SwiftyJSON'
+  s.dependency 'CryptoSwift'
 
   s.subspec 'Context' do |cs|
     cs.source_files = 'VSContent/SwiftSource/Context/2.0.0/**/*'
