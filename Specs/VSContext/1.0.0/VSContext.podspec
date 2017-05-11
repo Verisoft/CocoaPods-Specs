@@ -8,5 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSContext/SwiftSource/1.0.0/*'
   spec.dependency 'VSRequest','>= 2.0.0'
+  spec.dependency 'VSCoreDataEngine','>= 2.0.0'
 end
 	
