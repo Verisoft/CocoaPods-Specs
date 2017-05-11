@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption'
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "cc64200f6950df33242997e1e90a6aa0a624a262"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "a252d912952787f55c830fd7d6cb3610b7982219"}
   s.dependency 'VSCoreDataEngine','>= 2.0.0'
   s.dependency 'VSRequest','>= 2.0.0'
   s.dependency 'VSContext'
@@ -14,33 +14,39 @@ Pod::Spec.new do |s|
   s.dependency 'SVProgressHUD'
   s.dependency 'SwiftyJSON'
 
-  s.subspec 'Core' do |cs|
-    cs.source_files = 'VSContent/SwiftSource/Core/2.0.0/**/*'
+  s.subspec 'Context' do |cs|
+    cs.source_files = 'VSContent/SwiftSource/Context/2.0.0/**/*'
+    cs.dependency 'VSContent/Context'
+  end
+
+  s.subspec 'Base' do |cs|
+    cs.source_files = 'VSContent/SwiftSource/Base/2.0.0/**/*'
+    cs.dependency 'VSContent/Context'
   end
 
   s.subspec 'PPT' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/**/*'
-    cs.dependency 'VSContent/Core'
+    cs.dependency 'VSContent/Base'
   end
 
   s.subspec 'Video' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentVideo/2.0.0/**/*'
-    cs.dependency 'VSContent/Core'
+    cs.dependency 'VSContent/Base'
   end
 
   s.subspec 'Quiz' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.0/**/*'
-    cs.dependency 'VSContent/Core'
+    cs.dependency 'VSContent/Base'
   end
 
   s.subspec 'Link' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentLink/2.0.0/**/*'
-    cs.dependency 'VSContent/Core'
+    cs.dependency 'VSContent/Base'
   end
 
   s.subspec 'Text' do |cs|
     cs.source_files = 'VSContent/ /ContentText/2.0.0/**/*'
-    cs.dependency 'VSContent/Core'
+    cs.dependency 'VSContent/Base'
   end
 
 end
