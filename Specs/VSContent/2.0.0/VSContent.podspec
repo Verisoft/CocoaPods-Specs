@@ -16,7 +16,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Context' do |cs|
     cs.source_files = 'VSContent/SwiftSource/Context/2.0.0/**/*'
-    cs.dependency 'VSContent/Context'
   end
 
   s.subspec 'Base' do |cs|
