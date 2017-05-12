@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption'
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "fa1bf98828d5473a698cb75f4e13f9d6da515d13"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git"}
 
   s.subspec 'Context' do |cs|
     cs.source_files = 'VSContent/SwiftSource/Context/2.0.0/**/*'
-    cs.dependency 'VSCoreDataEngine','>= 2.0.0'
-    cs.dependency 'VSRequest','>= 2.0.0'
+    cs.dependency 'VSCoreDataEngine'
+    cs.dependency 'VSRequest'
     cs.dependency 'Zip'
     cs.dependency 'SwiftHEXColors'
     cs.dependency 'SVProgressHUD'
@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.subspec 'Base' do |cs|
     cs.source_files = 'VSContent/SwiftSource/Base/2.0.0/**/*'
     cs.dependency 'VSContent/Context'
-    cs.dependency 'VSCoreDataEngine','>= 2.0.0'
-    cs.dependency 'VSRequest','>= 2.0.0'
+    cs.dependency 'VSCoreDataEngine'
+    cs.dependency 'VSRequest'
     cs.dependency 'Zip'
     cs.dependency 'SwiftHEXColors'
     cs.dependency 'SVProgressHUD'
@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
   s.subspec 'PPT' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/**/*'
     cs.dependency 'VSContent/Base'
-    cs.dependency 'VSCoreDataEngine','>= 2.0.0'
-    cs.dependency 'VSRequest','>= 2.0.0'
+    cs.dependency 'VSCoreDataEngine'
+    cs.dependency 'VSRequest'
     cs.dependency 'Zip'
     cs.dependency 'SwiftHEXColors'
     cs.dependency 'SVProgressHUD'
@@ -45,8 +45,8 @@ Pod::Spec.new do |s|
   s.subspec 'Video' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentVideo/2.0.0/**/*'
     cs.dependency 'VSContent/Base'
-    cs.dependency 'VSCoreDataEngine','>= 2.0.0'
-    cs.dependency 'VSRequest','>= 2.0.0'
+    cs.dependency 'VSCoreDataEngine'
+    cs.dependency 'VSRequest'
     cs.dependency 'Zip'
     cs.dependency 'SwiftHEXColors'
     cs.dependency 'SVProgressHUD'
@@ -57,8 +57,8 @@ Pod::Spec.new do |s|
   s.subspec 'Quiz' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.0/**/*'
     cs.dependency 'VSContent/Base'
-    cs.dependency 'VSCoreDataEngine','>= 2.0.0'
-    cs.dependency 'VSRequest','>= 2.0.0'
+    cs.dependency 'VSCoreDataEngine'
+    cs.dependency 'VSRequest'
     cs.dependency 'Zip'
     cs.dependency 'SwiftHEXColors'
     cs.dependency 'SVProgressHUD'
@@ -69,8 +69,8 @@ Pod::Spec.new do |s|
   s.subspec 'Link' do |cs|
     cs.source_files = 'VSContent/SwiftSource/ContentLink/2.0.0/**/*'
     cs.dependency 'VSContent/Base'
-    cs.dependency 'VSCoreDataEngine','>= 2.0.0'
-    cs.dependency 'VSRequest','>= 2.0.0'
+    cs.dependency 'VSCoreDataEngine'
+    cs.dependency 'VSRequest'
     cs.dependency 'Zip'
     cs.dependency 'SwiftHEXColors'
     cs.dependency 'SVProgressHUD'
@@ -79,10 +79,10 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Text' do |cs|
-    cs.source_files = 'VSContent/ /ContentText/2.0.0/**/*'
+    cs.source_files = 'VSContent/SwiftSource/ContentText/2.0.0/**/*'
     cs.dependency 'VSContent/Base'
-    cs.dependency 'VSCoreDataEngine','>= 2.0.0'
-    cs.dependency 'VSRequest','>= 2.0.0'
+    cs.dependency 'VSCoreDataEngine'
+    cs.dependency 'VSRequest'
     cs.dependency 'Zip'
     cs.dependency 'SwiftHEXColors'
     cs.dependency 'SVProgressHUD'
