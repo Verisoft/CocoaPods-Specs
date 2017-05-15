@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'PPT' do |ppt|
     ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/**/*'
-    ppt.dependency 'VSContent/Base'
+    ppt.dependency 'VSContent/Core'
     ppt.dependency 'VSCoreDataEngine'
     ppt.dependency 'VSRequest'
     ppt.dependency 'Zip'
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Video' do |video|
     video.source_files = 'VSContent/SwiftSource/ContentVideo/2.0.0/**/*'
-    video.dependency 'VSContent/Base'
+    video.dependency 'VSContent/Core'
     video.dependency 'VSCoreDataEngine'
     video.dependency 'VSRequest'
     video.dependency 'Zip'
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Quiz' do |quiz|
     quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.0/**/*'
-    quiz.dependency 'VSContent/Base'
+    quiz.dependency 'VSContent/Core'
     quiz.dependency 'VSCoreDataEngine'
     quiz.dependency 'VSRequest'
     quiz.dependency 'Zip'
@@ -56,7 +56,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Link' do |link|
     link.source_files = 'VSContent/SwiftSource/ContentLink/2.0.0/**/*'
-    link.dependency 'VSContent/Base'
+    link.dependency 'VSContent/Core'
     link.dependency 'VSCoreDataEngine'
     link.dependency 'VSRequest'
     link.dependency 'Zip'
@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Text' do |txt|
     txt.source_files = 'VSContent/SwiftSource/ContentText/2.0.0/**/*'
-    txt.dependency 'VSContent/Base'
+    txt.dependency 'VSContent/Core'
     txt.dependency 'VSCoreDataEngine'
     txt.dependency 'VSRequest'
     txt.dependency 'Zip'
