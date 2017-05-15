@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption'
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "f5959954ffef9b73cdc742b6b9306d488704f74b"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "7dd633e23cfa31d753822dc9e33fb42f0dc97ec5"}
 
-  s.subspec 'Context' do |cx|
-    cx.source_files = 'VSContent/SwiftSource/Context/2.0.0/**/*'
+  s.subspec 'Core' do |cx|
+    cx.source_files = 'VSContent/SwiftSource/Core/2.0.0/**/*'
     cx.dependency 'VSCoreDataEngine'
     cx.dependency 'VSRequest'
     cx.dependency 'Zip'
@@ -16,18 +16,6 @@ Pod::Spec.new do |s|
     cx.dependency 'SVProgressHUD'
     cx.dependency 'SwiftyJSON'
     cx.dependency 'CryptoSwift'    
-  end
-
-  s.subspec 'Base' do |b|
-    b.source_files = 'VSContent/SwiftSource/Base/2.0.0/**/*'
-    b.dependency 'VSContent/Context'
-    b.dependency 'VSCoreDataEngine'
-    b.dependency 'VSRequest'
-    b.dependency 'Zip'
-    b.dependency 'SwiftHEXColors'
-    b.dependency 'SVProgressHUD'
-    b.dependency 'SwiftyJSON'
-    b.dependency 'CryptoSwift'
   end
 
   s.subspec 'PPT' do |ppt|
