@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "92c0377a6c4d515e0b001020eff7358de5d0ddb8"}
 
   s.subspec 'Core' do |cx|
+    cx.resources = 'VSContent/SwiftSource/Core/2.0.0/**/*'
     cx.source_files = 'VSContent/SwiftSource/Core/2.0.0/**/*'
     cx.dependency 'VSCoreDataEngine'
     cx.dependency 'VSRequest'
@@ -19,6 +20,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'PPT' do |ppt|
+    ppt.resources = 'VSContent/SwiftSource/Core/2.0.0/**/*'  
     ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/**/*'
     ppt.dependency 'VSContent/Core'
     ppt.dependency 'VSCoreDataEngine'
