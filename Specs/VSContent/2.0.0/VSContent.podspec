@@ -30,6 +30,17 @@ Pod::Spec.new do |s|
     ppt.dependency 'CryptoSwift'    
   end
 
+  s.subspec 'PDF' do |pdf|
+    pdf.source_files = 'VSContent/SwiftSource/ContentPDF/2.0.0/**/*'
+    pdf.dependency 'VSContent/Core'
+    pdf.dependency 'VSCoreDataEngine'
+    pdf.dependency 'VSRequest'
+    pdf.dependency 'SwiftHEXColors'
+    pdf.dependency 'SVProgressHUD'
+    pdf.dependency 'SwiftyJSON'
+    pdf.dependency 'CryptoSwift'    
+  end
+
   s.subspec 'Video' do |video|
     video.source_files = 'VSContent/SwiftSource/ContentVideo/2.0.0/**/*'
     video.dependency 'VSContent/Core'
