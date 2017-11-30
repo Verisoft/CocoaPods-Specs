@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'PPT' do |ppt|
-    ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.0/**/*'
+    ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.1/**/*'
     ppt.dependency 'VSContent/Core'
     ppt.dependency 'VSCoreDataEngine'
     ppt.dependency 'VSRequest'
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Quiz' do |quiz|
-    quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.0/**/*'
+    quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.1/**/*'
     quiz.dependency 'VSContent/Core'
     quiz.dependency 'VSCoreDataEngine'
     quiz.dependency 'VSRequest'
