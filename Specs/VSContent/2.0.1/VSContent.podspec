@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption'
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "e950d0766b65857dac61be79f5f2a6f67c446b58"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "107b23d31eb9a35ceba012246cb47f24bfddfef9"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.0.1/**/*'
@@ -19,15 +19,15 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'HTML' do |html|
-    ppt.source_files = 'VSContent/SwiftSource/ContentHTML/2.0.0/**/*'
-    ppt.dependency 'VSContent/Core'
-    ppt.dependency 'VSCoreDataEngine'
-    ppt.dependency 'VSRequest'
-    ppt.dependency 'Zip'
-    ppt.dependency 'SwiftHEXColors'
-    ppt.dependency 'SVProgressHUD'
-    ppt.dependency 'SwiftyJSON'
-    ppt.dependency 'CryptoSwift'    
+    html.source_files = 'VSContent/SwiftSource/ContentHTML/2.0.0/**/*'
+    html.dependency 'VSContent/Core'
+    html.dependency 'VSCoreDataEngine'
+    html.dependency 'VSRequest'
+    html.dependency 'Zip'
+    html.dependency 'SwiftHEXColors'
+    html.dependency 'SVProgressHUD'
+    html.dependency 'SwiftyJSON'
+    html.dependency 'CryptoSwift'    
   end
 
   s.subspec 'PPT' do |ppt|
