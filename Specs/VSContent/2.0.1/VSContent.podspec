@@ -18,6 +18,18 @@ Pod::Spec.new do |s|
     cx.dependency 'CryptoSwift'    
   end
 
+  s.subspec 'HTML' do |html|
+    ppt.source_files = 'VSContent/SwiftSource/ContentHTML/2.0.0/**/*'
+    ppt.dependency 'VSContent/Core'
+    ppt.dependency 'VSCoreDataEngine'
+    ppt.dependency 'VSRequest'
+    ppt.dependency 'Zip'
+    ppt.dependency 'SwiftHEXColors'
+    ppt.dependency 'SVProgressHUD'
+    ppt.dependency 'SwiftyJSON'
+    ppt.dependency 'CryptoSwift'    
+  end
+
   s.subspec 'PPT' do |ppt|
     ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.1/**/*'
     ppt.dependency 'VSContent/Core'
