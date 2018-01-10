@@ -20,6 +20,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'HTML' do |html|
     html.source_files = 'VSContent/SwiftSource/ContentHTML/2.0.0/**/*'
+    html.resources = [
+    'VSContent/SwiftSource/ContentHTML/2.0.0/**/*.{js,css}',
+    ]
     html.dependency 'VSContent/Core'
     html.dependency 'VSCoreDataEngine'
     html.dependency 'VSRequest'
