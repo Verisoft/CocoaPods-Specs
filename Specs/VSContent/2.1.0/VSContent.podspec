@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Audio' do |audio|
-    audio.source_files = 'VSContent/SwiftSource/ContentVideo/2.1.0/**/*'
+    audio.source_files = 'VSContent/SwiftSource/ContentAudio/2.1.0/**/*'
     audio.dependency 'VSContent/Core'
     audio.dependency 'VSCoreDataEngine'
     audio.dependency 'SwiftHEXColors'
