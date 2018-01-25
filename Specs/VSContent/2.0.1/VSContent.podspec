@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.subspec 'HTML' do |html|
     html.source_files = 'VSContent/SwiftSource/ContentHTML/2.0.0/**/*'
     html.resources = [
-    'VSContent/SwiftSource/ContentHTML/2.0.0/**/*.{js,css,storyboard}',
+    'VSContent/SwiftSource/ContentHTML/2.0.0/**/*.{js,css,storyboard,xib}',
     ]
     html.dependency 'VSContent/Core'
     html.dependency 'VSCoreDataEngine'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   s.subspec 'Epub' do |epub|
     epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.0.0/**/*'
     epub.resources = [
-    'VSContent/SwiftSource/ContentEpub/2.0.0/**/*.{js,css}',
+    'VSContent/SwiftSource/ContentEpub/2.0.0/**/*.{js,css,storyboard,xib}',
     ]
     epub.dependency 'VSContent/Core'
     epub.dependency 'VSCoreDataEngine'
