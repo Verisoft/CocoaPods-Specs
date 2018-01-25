@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
     epub.dependency 'MenuItemKit'
     epub.dependency 'SimpleImageViewer'
     epub.dependency 'AEXML'
-    epub.dependency 'HTMLEntities', :git => 'https://github.com/IBM-Swift/swift-html-entities.git'
+    epub.dependency 'HTMLEntities'
   end
 
   s.subspec 'HTML' do |html|
