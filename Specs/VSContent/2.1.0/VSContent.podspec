@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "e0fa18c3a397d5dc136dbe636ca4ebb67a8b5e20"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "f1198aba2a558cf90cab41782cf6d5a7a39e4129"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.1.0/**/*'
@@ -16,6 +16,22 @@ Pod::Spec.new do |s|
     cx.dependency 'SVProgressHUD'
     cx.dependency 'SwiftyJSON'
     cx.dependency 'CryptoSwift'    
+  end
+
+  s.subspec 'Epub' do |epub|
+    epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.0.0/**/*'
+    epub.dependency 'VSContent/Core'
+    epub.dependency 'VSCoreDataEngine'
+    epub.dependency 'VSRequest'
+    epub.dependency 'Zip'
+    epub.dependency 'SwiftHEXColors'
+    epub.dependency 'SVProgressHUD'
+    epub.dependency 'SwiftyJSON'
+    epub.dependency 'CryptoSwift'
+    epub.dependency 'MenuItemKit'
+    epub.dependency 'SimpleImageViewer'
+    epub.dependency 'AEXML'
+    epub.dependency 'HTMLEntities', :git => 'https://github.com/IBM-Swift/swift-html-entities.git'
   end
 
   s.subspec 'HTML' do |html|
