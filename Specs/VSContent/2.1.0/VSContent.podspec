@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Epub' do |epub|
-    epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.0.0/**/*'
+    epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.0.0/**/*.{swift}'
     epub.resources = [
     'VSContent/SwiftSource/ContentEpub/2.0.0/**/*.{js,css,storyboard,xib}',
     ]
