@@ -10,10 +10,7 @@ Pod::Spec.new do |spec|
   spec.requires_arc = false
   spec.framework    = 'Security'
   spec.dependency 'NSData+Base64'
-  spec.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  spec.preserve_paths = 'Sources/CCommonCrypto/module.modulemap'
-
-
+  spec.xcconfig         = { 'HEADER_SEARCH_PATHS' =>           '$(SDKROOT)/usr/include/CommonCrypto/CommonCrypto.h'}
 
 end
 	
