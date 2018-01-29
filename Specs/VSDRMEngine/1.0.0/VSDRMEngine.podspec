@@ -9,5 +9,8 @@ Pod::Spec.new do |spec|
   spec.source_files = 'VSDRMEngine/Source/1.0.0/*'
   spec.requires_arc = true
   spec.framework    = 'Security'
+  spec.dependency 'NSData+Base64'
+
+
 end
 	
