@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
     cx.dependency 'SVProgressHUD'
     cx.dependency 'SwiftyJSON'
     cx.dependency 'CryptoSwift'    
+    cx.dependency 'CommonCryptoSwift'    
   end
 
   s.subspec 'Epub' do |epub|
