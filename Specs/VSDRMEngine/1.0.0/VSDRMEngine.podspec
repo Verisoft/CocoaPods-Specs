@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.platform 	= :ios, '7.0'	
+  spec.platform 	= :ios, '9.0'	
   spec.name         = 'VSDRMEngine'
   spec.version      = '1.0.0'
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
