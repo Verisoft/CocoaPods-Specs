@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   spec.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   spec.summary      = 'iOS DRM Engine designed for Verisoft apps'
-  spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
+  spec.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "a10f49013b254fc46a204d1e8ff95c9ddd3b510f"}
   spec.source_files = 'VSDRMEngine/Source/1.0.0/*'
   spec.requires_arc = true
   spec.framework    = 'Security'
