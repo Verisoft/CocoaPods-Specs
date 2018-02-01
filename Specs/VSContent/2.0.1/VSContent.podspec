@@ -33,24 +33,6 @@ Pod::Spec.new do |s|
     html.dependency 'CryptoSwift'    
   end
 
-  s.subspec 'Epub' do |epub|
-    epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.0.0/**/*'
-    epub.resources = [
-    'VSContent/SwiftSource/ContentEpub/2.0.0/**/*.{js,css,storyboard,xib}',
-    ]
-    epub.dependency 'VSContent/Core'
-    epub.dependency 'VSCoreDataEngine'
-    epub.dependency 'VSRequest'
-    epub.dependency 'Zip'
-    epub.dependency 'SwiftHEXColors'
-    epub.dependency 'SVProgressHUD'
-    epub.dependency 'SwiftyJSON'
-    epub.dependency 'CryptoSwift'
-    epub.dependency 'MenuItemKit'
-    epub.dependency 'SimpleImageViewer'
-    epub.dependency 'AEXML'
-  end
-
   s.subspec 'PPT' do |ppt|
     ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.1/**/*'
     ppt.dependency 'VSContent/Core'
