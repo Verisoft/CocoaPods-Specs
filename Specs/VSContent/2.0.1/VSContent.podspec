@@ -104,4 +104,12 @@ Pod::Spec.new do |s|
     txt.dependency 'CryptoSwift'
   end
 
+  s.subspec 'Subscription' do |sub|
+    sub.source_files = 'VSContent/SwiftSource/Subscription/2.0.0/**/*'
+    sub.dependency 'VSContent/Core'
+    sub.dependency 'VSCoreDataEngine'
+    sub.dependency 'SwiftyJSON'
+    sub.dependency 'VSRequest'
+  end
+
 end
