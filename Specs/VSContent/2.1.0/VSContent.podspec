@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "8ba7a16e5abe0c2247b0e5c9d7c42aa29c8d4d84"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "16551b4d2d6f198d045f4f413429669f70c1f401"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.1.0/**/*'
@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
     epub.dependency 'MenuItemKit'
     epub.dependency 'SimpleImageViewer'
     epub.dependency 'AEXML'
+    epub.dependency 'VSDRMEngine'
   end
 
   s.subspec 'HTML' do |html|
