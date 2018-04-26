@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     epub.dependency 'CryptoSwift'
     epub.dependency 'MenuItemKit'
     epub.dependency 'SimpleImageViewer'
-    epub.dependency 'AEXML'
+    epub.dependency 'AEXML', '4.2.2'
     epub.dependency 'VSDRMEngine'
   end
 
