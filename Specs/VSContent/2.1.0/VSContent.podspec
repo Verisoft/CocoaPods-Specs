@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "16551b4d2d6f198d045f4f413429669f70c1f401"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "989fabc16b13653d91fe986f3a6add99277dd6be"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.1.0/**/*'
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Epub' do |epub|
-    epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.0.0/**/*.{swift}'
+    epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.1.0/**/*.{swift}'
     epub.resources = [
-    'VSContent/SwiftSource/ContentEpub/2.0.0/**/*.{js,css,storyboard,xib}',
+    'VSContent/SwiftSource/ContentEpub/2.1.0/**/*.{js,css,storyboard,xib}',
     ]
     epub.dependency 'VSContent/Core'
     epub.dependency 'VSCoreDataEngine'
