@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "6a91a87e0e48914b039b773404f1011342b2cde1"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "a9ffaec0b3a4a4407a0fdc4531cec0595558192b"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.1.0/**/*'
@@ -40,9 +40,9 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'HTML' do |html|
-    html.source_files = 'VSContent/SwiftSource/ContentHTML/2.0.0/**/*'
+    html.source_files = 'VSContent/SwiftSource/ContentHTML/2.1.0/**/*'
     html.resources = [
-    'VSContent/SwiftSource/ContentHTML/2.0.0/**/*.{js,css,storyboard,xib}',
+    'VSContent/SwiftSource/ContentHTML/2.1.0/**/*.{js,css,storyboard,xib}',
     ]    
     html.dependency 'VSContent/Core'
     html.dependency 'VSCoreDataEngine'
@@ -52,10 +52,11 @@ Pod::Spec.new do |s|
     html.dependency 'SVProgressHUD'
     html.dependency 'SwiftyJSON'
     html.dependency 'CryptoSwift'    
+    html.dependency 'VSDRMEngine'  
   end
 
   s.subspec 'PPT' do |ppt|
-    ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.0.1/**/*'
+    ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.1.0/**/*'
     ppt.dependency 'VSContent/Core'
     ppt.dependency 'VSCoreDataEngine'
     ppt.dependency 'VSRequest'
@@ -64,6 +65,7 @@ Pod::Spec.new do |s|
     ppt.dependency 'SVProgressHUD'
     ppt.dependency 'SwiftyJSON'
     ppt.dependency 'CryptoSwift'    
+    ppt.dependency 'VSDRMEngine'  
   end
 
   s.subspec 'PDF' do |pdf|
