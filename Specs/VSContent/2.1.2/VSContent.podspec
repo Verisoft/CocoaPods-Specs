@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform     = :ios, '11.0' 
   s.name         = 'VSContent'
-  s.version      = '2.1.1'
+  s.version      = '2.1.2'
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
@@ -136,7 +136,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Subscription' do |sub|
-    sub.source_files = 'VSContent/SwiftSource/Subscription/2.1.0/**/*'
+    sub.source_files = 'VSContent/SwiftSource/Subscription/2.1.1/**/*'
     sub.dependency 'VSContent/Core'
     sub.dependency 'VSCoreDataEngine'
     sub.dependency 'SwiftyJSON'
