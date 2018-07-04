@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.platform     = :ios, '11.0' 
   s.name         = 'VSContent'
-  s.version      = '2.1.3'
+  s.version      = '2.1.2'
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "1911a2173934c76b461dffc87bd6d14978397130"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "dc49291da029c736648f2bd10723d59ad0119977"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.1.0/**/*'
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.subspec 'Epub' do |epub|
     epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.1.0/**/*.{swift}'
     epub.resources = [
-    'VSContent/SwiftSource/ContentEpub/2.1.0/**/*.{js,css,storyboard,xib}',
+    'VSContent/SwiftSource/ContentEpub/2.1.1/**/*.{js,css,storyboard,xib}',
     ]
     epub.dependency 'VSContent/Core'
     epub.dependency 'VSCoreDataEngine'
@@ -136,7 +136,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Subscription' do |sub|
-    sub.source_files = 'VSContent/SwiftSource/Subscription/2.1.2/**/*'
+    sub.source_files = 'VSContent/SwiftSource/Subscription/2.1.1/**/*'
     sub.dependency 'VSContent/Core'
     sub.dependency 'VSCoreDataEngine'
     sub.dependency 'SwiftyJSON'
