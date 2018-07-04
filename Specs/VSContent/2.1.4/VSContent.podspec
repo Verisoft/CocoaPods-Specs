@@ -144,9 +144,9 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Tracker' do |tracker|
-    sub.source_files = 'VSContent/SwiftSource/Tracker/2.0.0/**/*'
-    sub.dependency 'VSCoreDataEngine'
-    sub.dependency 'VSRequest'
+    tracker.source_files = 'VSContent/SwiftSource/Tracker/2.0.0/**/*'
+    tracker.dependency 'VSCoreDataEngine'
+    tracker.dependency 'VSRequest'
   end
 
 end
