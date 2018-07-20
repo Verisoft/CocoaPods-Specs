@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   spec.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   spec.summary      = 'Subclass of Alamofire designed for Verisoft apps that uses Swift 3.0 and iOS10+'
-  spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git', :commit => "d98e8de2d47ca15b9352e64e378312c5f699f58b"}
+  spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git', :commit => "a3f8be1aeec00c213c0fcc8072b2654dbd1a4c69"}
   spec.source_files = 'VSRequest/SwiftSource/2.0.3/*'
   spec.requires_arc = true
   spec.dependency 'Alamofire'
