@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "c9d5eac61b6f304766c692199640421d36116c59"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "5589e24777c25e4ff77f35303a67d763fd7e1e09"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.2.0/**/*'
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Video' do |video|
-    video.source_files = 'VSContent/SwiftSource/ContentVideo/2.2.0/**/*'
+    video.source_files = 'VSContent/SwiftSource/ContentVideo/2.2.1/**/*'
     video.dependency 'VSContent/Core'
     video.dependency 'VSCoreDataEngine'
     video.dependency 'SwiftHEXColors'
@@ -129,7 +129,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Audio' do |audio|
-    audio.source_files = 'VSContent/SwiftSource/ContentAudio/2.2.0/**/*'
+    audio.source_files = 'VSContent/SwiftSource/ContentAudio/2.2.1/**/*'
     audio.dependency 'VSContent/Core'
     audio.dependency 'VSCoreDataEngine'
     audio.dependency 'SwiftHEXColors'
