@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.2.0/**/*'
+    cx.exclude_files = 'README.md'
     cx.dependency 'VSCoreDataEngine'
     cx.dependency 'VSRequest'
     cx.dependency 'Zip'
@@ -22,6 +23,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Epub' do |epub|
     epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.2.0/**/*.{swift}'
+    epub.exclude_files = 'README.md'
     epub.resources = [
     'VSContent/SwiftSource/ContentEpub/2.2.0/**/*.{js,css,storyboard,xib}',
     ]
@@ -41,6 +43,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'HTML' do |html|
     html.source_files = 'VSContent/SwiftSource/ContentHTML/2.1.0/**/*'
+    html.exclude_files = 'README.md'
     html.resources = [
     'VSContent/SwiftSource/ContentHTML/2.1.0/**/*.{js,css,storyboard,xib}',
     ]    
@@ -57,6 +60,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'PPT' do |ppt|
     ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.2.0/**/*'
+    ppt.exclude_files = 'README.md'
     ppt.dependency 'VSContent/Core'
     ppt.dependency 'VSCoreDataEngine'
     ppt.dependency 'VSRequest'
@@ -70,6 +74,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'PDF' do |pdf|
     pdf.source_files = 'VSContent/SwiftSource/ContentPDF/2.2.0/**/*'
+    pdf.exclude_files = 'README.md'
     pdf.dependency 'VSContent/Core'
     pdf.dependency 'VSCoreDataEngine'
     pdf.dependency 'VSRequest'
@@ -81,6 +86,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Video' do |video|
     video.source_files = 'VSContent/SwiftSource/ContentVideo/2.2.1/**/*'
+    video.exclude_files = 'README.md'
     video.dependency 'VSContent/Core'
     video.dependency 'VSCoreDataEngine'
     video.dependency 'SwiftHEXColors'
@@ -91,6 +97,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Quiz' do |quiz|
     quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.1.0/**/*'
+    quiz.exclude_files = 'README.md'
     quiz.resources = [
     'VSContent/SwiftSource/ContentQuiz/2.1.0/**/*.{html,js,css,json,map}',
     ]
@@ -106,6 +113,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Link' do |link|
     link.source_files = 'VSContent/SwiftSource/ContentLink/2.0.1/**/*'
+    link.exclude_files = 'README.md'
     link.dependency 'VSContent/Core'
     link.dependency 'VSCoreDataEngine'
     link.dependency 'VSRequest'
@@ -118,6 +126,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Text' do |txt|
     txt.source_files = 'VSContent/SwiftSource/ContentText/2.0.0/**/*'
+    txt.exclude_files = 'README.md'
     txt.dependency 'VSContent/Core'
     txt.dependency 'VSCoreDataEngine'
     txt.dependency 'VSRequest'
@@ -130,6 +139,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Audio' do |audio|
     audio.source_files = 'VSContent/SwiftSource/ContentAudio/2.2.1/**/*'
+    audio.exclude_files = 'README.md'
     audio.dependency 'VSContent/Core'
     audio.dependency 'VSCoreDataEngine'
     audio.dependency 'SwiftHEXColors'
@@ -140,6 +150,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Subscription' do |sub|
     sub.source_files = 'VSContent/SwiftSource/Subscription/2.1.4/**/*'
+    sub.exclude_files = 'README.md'
     sub.dependency 'VSContent/Core'
     sub.dependency 'VSCoreDataEngine'
     sub.dependency 'SwiftyJSON'
@@ -148,6 +159,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Tracker' do |tracker|
     tracker.source_files = 'VSContent/SwiftSource/Tracker/2.0.0/**/*'
+    tracker.exclude_files = 'README.md'
     tracker.dependency 'VSCoreDataEngine'
     tracker.dependency 'VSRequest'
   end
