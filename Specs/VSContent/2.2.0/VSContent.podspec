@@ -91,6 +91,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'Quiz' do |quiz|
     quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.1.0/**/*'
+        epub.resources = [
+    'VSContent/SwiftSource/ContentQuiz/2.1.0/**/*.{html, js,css, json, map}',
+    ]
     quiz.dependency 'VSContent/Core'
     quiz.dependency 'VSCoreDataEngine'
     quiz.dependency 'VSRequest'
