@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform     = :ios, '11.0' 
   s.name         = 'VSContent'
-  s.version      = '2.2.0'
+  s.version      = '2.2.1'
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
