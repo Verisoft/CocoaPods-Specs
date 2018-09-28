@@ -70,6 +70,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'Quiz' do |quiz|
     quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.0.1/**/*'
+    quiz.resources = [
+    'VSContent/SwiftSource/ContentHTML/2.0.0/**/*.{js,css,storyboard,xib}',
+    ]
     quiz.dependency 'VSContent/Core'
     quiz.dependency 'VSCoreDataEngine'
     quiz.dependency 'VSRequest'
