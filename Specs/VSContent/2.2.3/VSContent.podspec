@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "8cf4d7c909cb57619bba0db17273b2176a18979f"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "cf2c01aef35be05a261a15f8ff109a678118b507"}
 
   s.subspec 'Core' do |cx|
-    cx.source_files = 'VSContent/SwiftSource/Core/2.2.1/**/*'
+    cx.source_files = 'VSContent/SwiftSource/Core/2.2.2/**/*'
     cx.exclude_files = 'README.md'
     cx.dependency 'VSCoreDataEngine'
     cx.dependency 'VSRequest'
