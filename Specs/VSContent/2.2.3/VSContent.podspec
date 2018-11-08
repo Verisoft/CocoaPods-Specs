@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
     html.source_files = 'VSContent/SwiftSource/ContentHTML/2.1.1/**/*'
     html.exclude_files = 'README.md'
     html.resources = [
-    'VSContent/SwiftSource/ContentHTML/2.1.0/**/*.{js,css,storyboard,xib}',
+    'VSContent/SwiftSource/ContentHTML/2.1.1/**/*.{js,css,storyboard,xib}',
     ]    
     html.dependency 'VSContent/Core'
     html.dependency 'VSCoreDataEngine'
