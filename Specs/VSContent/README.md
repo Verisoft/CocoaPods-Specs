@@ -89,13 +89,16 @@ Versão 2.2.0
 Versão 2.0.X
 ==
 
-**Versão inicial, conteúdos sem criptografia**
+**Versão inicial, conteúdos sem criptografia, feito em swift para novo paradigma de contexto**
 
 *Core*
+> Versão inicial do componente base de handler de contexto
 
 *HTML* 
+> Versão inicial do render
 
 *PPT*
+> Versão inicial baseado no Treinapp de objc
 
 *PDF*
 > Utilização do componente nativo antigo do iOS, antes do SDK 11.0
@@ -107,8 +110,10 @@ Versão 2.0.X
 > Componente nativo baseado no Treinapp de objc
 
 *Link*
+> Versão inicial
 
 *Text*
+> Versão inicial
 
 *Subscription*
 > Versão antes de migrar para o modelo de AccessPlan
@@ -117,4 +122,4 @@ Versão 2.0.X
 Versão 1.0.X
 ==
 
-**Modelo antigo em objc, antes do refactoring para utilização do modelo de contexto**
+**Modelo antigo em objc, antes do refactoring para utilização do paradigma de contexto**
