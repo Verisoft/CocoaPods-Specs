@@ -84,3 +84,37 @@ Versão 2.2.0
 
 *Subscription -> 2.1.4*
 > Adicionado suporte ao accessplan do tipo voucher 
+
+
+Versão 2.0.X
+==
+
+**Versão inicial, conteúdos sem criptografia**
+
+*Core*
+
+*HTML* 
+
+*PPT*
+
+*PDF*
+> Utilização do componente nativo antigo do iOS, antes do SDK 11.0
+
+*Video*
+> Sem criptografia
+
+*Quiz*
+> Componente nativo baseado no Treinapp de objc
+
+*Link*
+
+*Text*
+
+*Subscription*
+> Versão antes de migrar para o modelo de AccessPlan
+
+
+Versão 1.0.X
+==
+
+**Modelo antigo em objc, antes do refactoring para utilização do modelo de contexto**
