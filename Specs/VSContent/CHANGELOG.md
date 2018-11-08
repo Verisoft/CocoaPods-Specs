@@ -2,22 +2,29 @@
 Versão 2.2.3
 ==
 *Core -> 2.2.2*
-> 	Corrigido problemas de compilação com Xcode 10
-> 	Torna métodos públicos para subclasse
->	Corrigido crash relacionado ao background download services e nova versão do VSRequest
->	Corrigido mensagens de erro no downloadservices
+
+> Corrigido problemas de compilação com Xcode 10
+
+> Torna métodos públicos para subclasse
+
+> Corrigido crash relacionado ao background download services e nova versão do VSRequest
+
+> Corrigido mensagens de erro no downloadservices
 
 *ContentEpub -> 2.2.1*
 
-> 	Trocado nome do arquivo CSS para evitar conflitos com Html
+> Trocado nome do arquivo CSS para evitar conflitos com Html
+
 >	Corrigido problemas de compilação com Xcode 10
 
 *Subscription -> 2.1.5*
 > Torna métodos de access plan públicos
+
 > Corrige Restore de assinatura
 
 *ContentPDF -> 2.2.1*
 > Grande refactoring para funcionar com Bancah e suportar navegação horizontal
+
 > Correções de bugs relacionados a checkpoint
 
 *ContentHTML -> 2.1.1*
@@ -53,10 +60,12 @@ Versão 2.2.0
 
 *Video -> 2.2.1*
 > Suporte a download de mp4 caso não haja criptografia
+
 > Suporte a checkpoint
 
 *Audio -> 2.2.1*
 > Suporte a download de mp4 caso não haja criptografia
+
 > Suporte a checkpoint
 
 *Quiz -> 2.1.0*
@@ -70,6 +79,7 @@ Versão 2.2.0
 
 *Epub -> 2.2.0*
 > Suporte a checkpoint
+
 > Mudanças no fechamento do leitor
 
 *Subscription -> 2.1.4*
