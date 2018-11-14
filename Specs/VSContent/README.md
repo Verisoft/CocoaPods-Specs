@@ -1,6 +1,9 @@
 
 Versão 2.2.3
 ==
+
+**Requer migração de banco de dados**
+
 *Core -> 2.2.2*
 
 > Corrigido problemas de compilação com Xcode 10
@@ -10,6 +13,8 @@ Versão 2.2.3
 > Corrigido crash relacionado ao background download services e nova versão do VSRequest
 
 > Corrigido mensagens de erro no downloadservices
+
+> Adicionado "contactInfo" no Flavour
 
 *ContentEpub -> 2.2.1*
 
