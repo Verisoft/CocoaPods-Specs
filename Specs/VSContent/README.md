@@ -22,6 +22,12 @@ Versão 2.2.3
 
 >	Corrigido problemas de compilação com Xcode 10
 
+>	Corrigido problemas de layout com iPhone X
+
+*ContentAudio -> 2.2.2*
+
+>	Corrigido problemas de layout com iPhone X
+
 *Subscription -> 2.1.5*
 > Torna métodos de access plan públicos
 
