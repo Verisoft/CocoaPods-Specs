@@ -30,6 +30,8 @@ Versão 2.2.3
 
 > Content ID agora é público para podermos suportar marcar o conteúdo ativo na listagem da task
 
+> Corrigido retenção de referência do player de áudio que causava problemas em modo avião
+
 *Subscription -> 2.1.5*
 > Torna métodos de access plan públicos
 
