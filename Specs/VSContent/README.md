@@ -28,6 +28,8 @@ Versão 2.2.3
 
 >	Corrigido problemas de layout com iPhone X
 
+> Content ID agora é público para podermos suportar marcar o conteúdo ativo na listagem da task
+
 *Subscription -> 2.1.5*
 > Torna métodos de access plan públicos
 
