@@ -16,6 +16,8 @@ Versão 2.2.3
 
 > Adicionado "contactInfo" no Flavour
 
+> VSUser agora é open para poder fazer subclass (métodos set e setGamificationPoints também são)
+
 *ContentEpub -> 2.2.1*
 
 > Trocado nome do arquivo CSS para evitar conflitos com Html
