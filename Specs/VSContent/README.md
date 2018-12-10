@@ -40,6 +40,8 @@ Versão 2.2.3
 
 > Corrigido retenção de referência do player de vídeo que causava problemas para renderizar conteúdo sem criptografia
 
+> Corrigido bug que não finalizava o player e enviava para tela de conclusão
+
 *Subscription -> 2.1.5*
 > Torna métodos de access plan públicos
 
