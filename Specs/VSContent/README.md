@@ -1,3 +1,19 @@
+Versão 2.2.4
+==
+
+**Requer migração de banco de dados**
+
+*Core -> 2.2.2*
+
+> Alterado forma de geração de certificado (agora é necessário o parse do campo "creation")
+
+*ContentEpub -> 2.2.2*
+
+> Corrigido problemas de orientação
+
+*ContentAudio -> 2.2.3*
+
+> Travado orientação para apenas portrait
 
 Versão 2.2.3
 ==
