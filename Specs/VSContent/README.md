@@ -1,3 +1,19 @@
+Versão 2.2.4
+==
+
+**Requer migração de banco de dados**
+
+*Core -> 2.2.2*
+
+> Alterado forma de geração de certificado (agora é necessário o parse do campo "creation")
+
+*ContentEpub -> 2.2.2*
+
+> Corrigido problemas de orientação
+
+*ContentAudio -> 2.2.3*
+
+> Travado orientação para apenas portrait
 
 Versão 2.2.3
 ==
@@ -15,6 +31,8 @@ Versão 2.2.3
 > Corrigido mensagens de erro no downloadservices
 
 > Adicionado "contactInfo" no Flavour
+
+> VSUser agora é open para poder fazer subclass (métodos set e setGamificationPoints também são)
 
 *ContentEpub -> 2.2.1*
 
@@ -37,6 +55,8 @@ Versão 2.2.3
 > Atualizado player com melhorias aplicadas no ContentAudio
 
 > Corrigido retenção de referência do player de vídeo que causava problemas para renderizar conteúdo sem criptografia
+
+> Corrigido bug que não finalizava o player e enviava para tela de conclusão
 
 *Subscription -> 2.1.5*
 > Torna métodos de access plan públicos
