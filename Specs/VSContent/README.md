@@ -15,6 +15,10 @@ Versão 2.2.4
 
 > Travado orientação para apenas portrait
 
+*Quiz -> 2.1.1*
+> Corrigido erro de parse com \n
+
+
 Versão 2.2.3
 ==
 
