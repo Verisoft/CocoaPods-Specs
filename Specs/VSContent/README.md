@@ -6,11 +6,14 @@ Versão 2.2.5
 
 > Alterado regra de replace para download de arquivos m3u8
 
-*ContentPDF -> 2.3.0*
+*PDF -> 2.3.0*
 
 > Alterado forma de exibição de páginas 
 
 > Adicionado suporte a 2 páginas em landscape
+
+*Quiz -> 2.1.2*
+> Corrigido erro de layout que não respeitava a safe margin
 
 
 Versão 2.2.4
@@ -22,11 +25,11 @@ Versão 2.2.4
 
 > Alterado forma de geração de certificado (agora é necessário o parse do campo "creation")
 
-*ContentEpub -> 2.2.2*
+*Epub -> 2.2.2*
 
 > Corrigido problemas de orientação
 
-*ContentAudio -> 2.2.3*
+*Audio -> 2.2.3*
 
 > Travado orientação para apenas portrait
 
@@ -118,7 +121,7 @@ Versão 2.2.0
 *Core -> 2.2.0*
 > Adicionado suporte a checkpoint
 
-*Video -> 2.2.1*
+*ContentVideo -> 2.2.1*
 > Suporte a download de mp4 caso não haja criptografia
 
 > Suporte a checkpoint
