@@ -2,6 +2,10 @@
 Versão 2.2.5
 ==
 
+*Core -> 2.2.3*
+
+> Alterado regra de replace para download de arquivos m3u8
+
 *ContentPDF -> 2.3.0*
 
 > Alterado forma de exibição de páginas 
