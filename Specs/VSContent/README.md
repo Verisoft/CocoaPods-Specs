@@ -1,3 +1,14 @@
+
+Versão 2.2.5
+==
+
+*ContentPDF -> 2.3.0*
+
+> Alterado forma de exibição de páginas 
+
+> Adicionado suporte a 2 páginas em landscape
+
+
 Versão 2.2.4
 ==
 
