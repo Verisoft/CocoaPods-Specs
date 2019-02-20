@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "47a6b27f293370378e27dd498d701ff54a362966"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "5ead4bc7df651e480c947e7e1f6b0e4e05deffc3"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.2.4/**/*'
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Quiz' do |quiz|
-    quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.1.1/**/*'
+    quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.1.2/**/*'
     quiz.exclude_files = 'README.md'
     quiz.resources = [
     'VSContent/SwiftSource/ContentQuiz/2.1.0/**/*.{html,js,css,json,map}',
