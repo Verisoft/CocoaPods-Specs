@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "5ead4bc7df651e480c947e7e1f6b0e4e05deffc3"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "af729900937f9c47e669cbbc89f76880ca3eb2f6"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.2.4/**/*'
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Video' do |video|
-    video.source_files = 'VSContent/SwiftSource/ContentVideo/2.2.3/**/*'
+    video.source_files = 'VSContent/SwiftSource/ContentVideo/2.2.4/**/*'
     video.exclude_files = 'README.md'
     video.dependency 'VSContent/Core'
     video.dependency 'VSCoreDataEngine'
@@ -138,7 +138,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Audio' do |audio|
-    audio.source_files = 'VSContent/SwiftSource/ContentAudio/2.2.3/**/*'
+    audio.source_files = 'VSContent/SwiftSource/ContentAudio/2.2.4/**/*'
     audio.exclude_files = 'README.md'
     audio.dependency 'VSContent/Core'
     audio.dependency 'VSCoreDataEngine'
