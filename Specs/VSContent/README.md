@@ -8,6 +8,10 @@ Versão 2.2.5
 
 > Correções no esquema de download in background que não funcionava corretamente
 
+> Correção na exclusão de arquivos m3u8
+
+> Adicionado métodos que retornam quantidade de conteúdos a serem baixados e já baixados de uma Task
+
 *Audio -> 2.2.4*
 
 > Alteração na chamada para baixar áudio em background
