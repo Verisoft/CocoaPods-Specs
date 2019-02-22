@@ -6,6 +6,16 @@ Versão 2.2.5
 
 > Alterado regra de replace para download de arquivos m3u8
 
+> Correções no esquema de download in background que não funcionava corretamente
+
+*Audio -> 2.2.4*
+
+> Alteração na chamada para baixar áudio em background
+
+*Video -> 2.2.4*
+
+> Alteração na chamada para baixar vídeo em background
+
 *PDF -> 2.3.0*
 
 > Alterado forma de exibição de páginas 
