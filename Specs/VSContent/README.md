@@ -12,6 +12,8 @@ Versão 2.2.5
 
 > Adicionado métodos que retornam quantidade de conteúdos a serem baixados e já baixados de uma Task
 
+> Adicionado método que retorna tamanho ocupado em disco pela task (e seus conteúdos internos)
+
 *Audio -> 2.2.4*
 
 > Alteração na chamada para baixar áudio em background
