@@ -2,7 +2,7 @@
 Versão 2.2.5
 ==
 
-*Core -> 2.2.3*
+*Core -> 2.2.4*
 
 > Alterado regra de replace para download de arquivos m3u8
 
@@ -37,7 +37,7 @@ Versão 2.2.4
 
 **Requer migração de banco de dados**
 
-*Core -> 2.2.2*
+*Core -> 2.2.3*
 
 > Alterado forma de geração de certificado (agora é necessário o parse do campo "creation")
 
