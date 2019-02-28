@@ -31,6 +31,7 @@ Versão 2.2.5
 *Quiz -> 2.1.2*
 > Corrigido erro de layout que não respeitava a safe margin
 
+> Corrigido problemas com caractéres especiais (agora é tudo enviado com base64)
 
 Versão 2.2.4
 ==
