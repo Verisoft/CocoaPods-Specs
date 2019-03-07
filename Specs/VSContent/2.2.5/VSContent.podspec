@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and swift3 adoption.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "f708c9d34fb73506dbedfb6a64fa3ab9f809a1c6"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "b29fd8a998970a1405c652a8ef7c87bf08876840"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.2.4/**/*'
