@@ -14,6 +14,10 @@ Versão 2.2.5
 
 > Adicionado método que retorna tamanho ocupado em disco pela task (e seus conteúdos internos)
 
+*Epub -> 2.2.3*
+
+> Corrigido bug de orientação com vídeo em tela cheia
+
 *Audio -> 2.2.4*
 
 > Alteração na chamada para baixar áudio em background
