@@ -6,6 +6,8 @@ Versão 2.2.5
 
 > Alterado regra de replace para download de arquivos m3u8
 
+> Desvinculado parse de sections vinculado ao de flavour no ContextServices
+
 > Correções no esquema de download in background que não funcionava corretamente
 
 > Correção na exclusão de arquivos m3u8
