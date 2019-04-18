@@ -1,4 +1,15 @@
 
+Versão 2.3.0
+==
+
+*Core -> 2.3.0*
+
+> Variável "orderedContents" agora é um método "orderedContents()" por conta de Bad Access no compilador do 4.2
+
+*Contents -> Todos*
+
+> Diversas alterações nos componentes para funcionarem com a versão 4.2 do Swift
+
 Versão 2.2.5
 ==
 
