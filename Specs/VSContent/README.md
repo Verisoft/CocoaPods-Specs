@@ -1,4 +1,27 @@
 
+Versão 2.3.2
+==
+
+*Core -> 2.3.0*
+
+> Corrigido mensagens de erro quando em modo avião
+
+*Epub -> 2.3.2*
+
+> Melhoria no suporte a epubs de layout fixo
+
+*Audio -> 2.3.1*
+
+> Adicionado suporte a avançar/reproceder 30 segundos
+
+> Melhorias no suporte a tocar áudio com celular bloqueado
+
+> Adicionado suporte a controlar velocidade de reprodução do áudio
+
+*PDF -> 2.4.1*
+
+> Corrigido problemas com iPhone X
+
 Versão 2.3.0
 ==
 
