@@ -1,8 +1,30 @@
+Versão 2.3.4
+==
+
+*Core -> 2.3.3*
+
+> Novo esquema de download em background que cria fila e notifica as views
+
+> Adicionado suporte a baixar arquivos em background com novo esquema de fila
+
+> Adicionado suporte a baixar HLS em background com novo esquema de fila
+
+*Subscription -> 2.2.1*
+
+> Adicionado enviar currency e price no serviço /save junto com o recibo de assinatura
+
+Versão 2.3.3
+==
+
+*Epub -> 2.3.2*
+
+> Melhorias e bug fixes
+
 
 Versão 2.3.2
 ==
 
-*Core -> 2.3.0*
+*Core -> 2.3.2*
 
 > Corrigido mensagens de erro quando em modo avião
 
