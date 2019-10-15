@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and now support to swift 4.2.'
 
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "ffcdc1bad1b81716860b49b0c4bd6b547939330e"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "3934dd18e5671fcfcc3be04e9d20ed6673223306"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.3.4/**/*'
@@ -42,10 +42,10 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'HTML' do |html|
-    html.source_files = 'VSContent/SwiftSource/ContentHTML/2.2.0/**/*'
+    html.source_files = 'VSContent/SwiftSource/ContentHTML/2.2.1/**/*'
     html.exclude_files = 'README.md'
     html.resources = [
-    'VSContent/SwiftSource/ContentHTML/2.2.0/**/*.{js,css, html}',
+    'VSContent/SwiftSource/ContentHTML/2.2.1/**/*.{js,css, html}',
     ]    
     html.dependency 'VSContent/Core'
     html.dependency 'VSCoreDataEngine'
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Video' do |video|
-    video.source_files = 'VSContent/SwiftSource/ContentVideo/2.3.0/**/*'
+    video.source_files = 'VSContent/SwiftSource/ContentVideo/2.3.1/**/*'
     video.exclude_files = 'README.md'
     video.dependency 'VSContent/Core'
     video.dependency 'VSCoreDataEngine'
@@ -96,10 +96,10 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Quiz' do |quiz|
-    quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.2.0/**/*'
+    quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.3.0/**/*'
     quiz.exclude_files = 'README.md'
     quiz.resources = [
-    'VSContent/SwiftSource/ContentQuiz/2.2.0/**/*.{html,js,css,json,map}',
+    'VSContent/SwiftSource/ContentQuiz/2.3.0/**/*.{html,js,css,json,map}',
     ]
     quiz.dependency 'VSContent/Core'
     quiz.dependency 'VSCoreDataEngine'
