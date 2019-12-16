@@ -7,6 +7,8 @@ Versão 2.3.7
 
 > Melhoria no parse conteúdos removidos no contexto
 
+> Adicionado novo serviço para enviar formulário de contato
+
 *Subscription -> 2.3.0*
 
 > Adicionado novos parâmetros: price e renew_period que são utilizados na tela de Settings
