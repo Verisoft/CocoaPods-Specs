@@ -1,3 +1,31 @@
+Versão 2.3.7
+==
+
+*Core -> 2.3.3*
+
+> Flavour agora tem um Bridge para possível implementação de Dark Mode
+
+> Melhoria no parse conteúdos removidos no contexto
+
+*Subscription -> 2.3.0*
+
+> Adicionado novos parâmetros: price e renew_period que são utilizados na tela de Settings
+
+*ContentEpub -> 2.4.0*
+
+> Desconsiderado acentos na busca
+
+> Adicionado TTS
+
+> Melhoria na marcação/desmarcação de termos selecionados no HTML
+
+> Adicionado suporte a controle de margem e altura da linha
+
+> Adicionado suporte a salvar calculo de páginas atual e retomá-lo quando leitor é aberto (para evitar reprocessar tudo)
+
+> Adicionado slider para avançar rápido pelas páginas do ePub
+
+
 Versão 2.3.4
 ==
 
