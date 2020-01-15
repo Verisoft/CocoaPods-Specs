@@ -27,6 +27,8 @@ Versão 2.3.7
 
 > Adicionado slider para avançar rápido pelas páginas do ePub
 
+> Adicionado suporte a salvar marcadores de páginas e visualizá-los junto ao índice de conteúdos do livro
+
 
 Versão 2.3.4
 ==
