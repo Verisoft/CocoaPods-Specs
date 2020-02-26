@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.source       = {:git => 'https://github.com/Verisoft/CocoaPods-Source.git'}
   spec.source_files = 'VSRequest/SwiftSource/2.0.11/*'
   spec.requires_arc = true
-  spec.dependency 'Alamofire'
+  spec.dependency 'Alamofire', '< 5.0.0'
   spec.dependency 'SwiftyJSON'
 end
