@@ -29,6 +29,9 @@ Versão 2.3.7
 
 > Adicionado suporte a salvar marcadores de páginas e visualizá-los junto ao índice de conteúdos do livro
 
+*ContentEpub -> 2.2.6*
+
+> Removido suporte ao Notification Center
 
 Versão 2.3.4
 ==
