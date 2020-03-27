@@ -1,7 +1,61 @@
+Versão 2.4.1
+==
+
+*ContentEpub -> 2.6.0*
+
+> Migração de UIWebView para WKWebView
+
+Versão 2.4.0
+==
+
+*Core -> 2.3.8*
+
+> Corrigido problema de download em backgrund que gerava memory leak
+
+> Corrigido problema de download em backgrund quando em modo avião/sem conexão
+
+*ContentEpub -> 2.5.0*
+
+> Adicionado suporte a tema light/dark nativo do aparelho
+
+*ContentAudio -> 2.3.3*
+
+> Corrigido previous/next no MPRemoteControl que estava invertido
+
+Versão 2.3.9
+==
+
+*ContentEpub -> 2.4.2*
+
+> Corrigido problemas de leitura com TTS
+
+> Corrigido seleção de texto e marcação de conteúdo (busca/anotação)
+
+> Tabelas foram removidas e transformadas em div
+
+*ContentVideo 2.3.2*
+
+> Correção de bugs
+
+Versão 2.3.8
+==
+
+*Core -> 2.3.7*
+
+> Corrigo bug que não apagava conteúdos
+
+*ContentEpub -> 2.4.1*
+
+> Melhoria na abertura de marcador
+
+> Melhoria na abertura de última página lida (restauração de estado)
+
+> Bug fixes gerais
+
 Versão 2.3.7
 ==
 
-*Core -> 2.3.3*
+*Core -> 2.3.6*
 
 > Flavour agora tem um Bridge para possível implementação de Dark Mode
 
