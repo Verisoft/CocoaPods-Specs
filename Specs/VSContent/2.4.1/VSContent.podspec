@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.6.0/**/*.{swift}'
     epub.exclude_files = 'README.md'
     epub.resources = [
-    'VSContent/SwiftSource/ContentEpub/2.5.0/**/*.{js,css,html,storyboard,xib}',
+    'VSContent/SwiftSource/ContentEpub/2.6.0/**/*.{js,css,html,storyboard,xib}',
     ]
     epub.dependency 'VSContent/Core'
     epub.dependency 'VSCoreDataEngine'
