@@ -12,6 +12,10 @@ Versão 2.5.0
 *ContentEpub -> 2.6.2*
  - Cores dos menus (ToC, Busca, Anotações) pegam do Flavour e não mais do light/dark Mode.
 
+*ContentAudio -> 2.3.4*
+
+> TintColor do UISlider agora usa Primary do Flavour
+
 
 Versão 2.4.1
 ==
