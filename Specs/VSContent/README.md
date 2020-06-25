@@ -2,15 +2,16 @@ Versão 2.5.0
 ============
 
 *Core -> 2.4.0*
- - Adicionado suporte a subseções
- - Melhorias no DownloadServices
- - Alterado forma como ContentTask trata o “status”
+> Adicionado suporte a subseções
+> Melhorias no DownloadServices
+> Alterado forma como ContentTask trata o “status”
+> Last Update de Content agora espelha na Task também
 
 *Subscription -> 2.3.1*
- - Adicionado suporte a additionalimage
+> Adicionado suporte a additionalimage
 
 *ContentEpub -> 2.6.2*
- - Cores dos menus (ToC, Busca, Anotações) pegam do Flavour e não mais do light/dark Mode.
+> Cores dos menus (ToC, Busca, Anotações) pegam do Flavour e não mais do light/dark Mode.
 
 *ContentAudio -> 2.3.4*
 
