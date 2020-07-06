@@ -2,6 +2,7 @@ Versão 2.5.0
 ============
 
 *Core -> 2.4.0*
+
 > Adicionado suporte a subseções
 > Alterado forma como ContentTask trata o “status”
 > Last Update de Content agora espelha na Task também
