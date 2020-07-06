@@ -4,9 +4,13 @@ Versão 2.5.0
 *Core -> 2.4.0*
 
 > Adicionado suporte a subseções
+
 > Alterado forma como ContentTask trata o “status”
+
 > Last Update de Content agora espelha na Task também
+
 > Background Download Services agora baixa com o app minimizado e foi refatorado para gerenciar melhor a fila de conteúdos a serem baixados
+
 > Download Services foi refatorado para corrigir problemas e suportar download em background
 
 *Subscription -> 2.3.1*
