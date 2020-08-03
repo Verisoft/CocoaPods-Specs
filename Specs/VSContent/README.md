@@ -1,3 +1,18 @@
+Versão 2.5.1
+============
+
+*Core -> 2.4.2*
+
+> Bug fixes
+
+*ContentPDF -> 2.5.1*
+
+> Bug fixes
+
+> Melhoria no suporte a temas light/dark
+
+
+
 Versão 2.5.0
 ============
 
