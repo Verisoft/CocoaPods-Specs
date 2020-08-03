@@ -2,20 +2,31 @@ Versão 2.5.0
 ============
 
 *Core -> 2.4.0*
+
 > Adicionado suporte a subseções
-> Melhorias no DownloadServices
+
 > Alterado forma como ContentTask trata o “status”
+
 > Last Update de Content agora espelha na Task também
+
+> Background Download Services agora baixa com o app minimizado e foi refatorado para gerenciar melhor a fila de conteúdos a serem baixados
+
+> Download Services foi refatorado para corrigir problemas e suportar download em background
 
 *Subscription -> 2.3.1*
 > Adicionado suporte a additionalimage
 
 *ContentEpub -> 2.6.2*
 > Cores dos menus (ToC, Busca, Anotações) pegam do Flavour e não mais do light/dark Mode.
+> Bug fixes
 
 *ContentAudio -> 2.3.4*
 
 > TintColor do UISlider agora usa Primary do Flavour
+
+*ContentPDF -> 2.5.1*
+
+> Corrigido problema de layout
 
 
 Versão 2.4.1
