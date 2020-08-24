@@ -3,7 +3,9 @@ Versão 2.5.1
 
 *Core -> 2.4.2*
 
-> Bug fixes
+> Bug fixes e melhorias gerais
+
+> Corrigido problema com download no 4g
 
 *ContentPDF -> 2.5.1*
 
