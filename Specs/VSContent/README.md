@@ -12,7 +12,7 @@ Versão 2.5.2
 Versão 2.5.1
 ============
 
-*Core -> 2.4.2*
+*Core -> 2.4.1*
 
 > Bug fixes e melhorias gerais
 
