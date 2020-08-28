@@ -9,6 +9,10 @@ Versão 2.5.2
 
 > Adicionado double tap to zoom
 
+*ContentEpub -> 2.6.3*
+
+Alterado ordem dos items de menu do leitor
+
 Versão 2.5.1
 ============
 
