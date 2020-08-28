@@ -1,3 +1,14 @@
+Versão 2.5.2
+============
+
+*Core -> 2.4.2*
+
+> Adicionado suporte a documento em VSUser
+
+*ContentPDF -> 2.5.2*
+
+> Adicionado double tap to zoom
+
 Versão 2.5.1
 ============
 
@@ -12,8 +23,6 @@ Versão 2.5.1
 > Bug fixes
 
 > Melhoria no suporte a temas light/dark
-
-
 
 Versão 2.5.0
 ============
