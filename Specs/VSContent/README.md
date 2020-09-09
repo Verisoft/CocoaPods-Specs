@@ -5,6 +5,8 @@ Versão 2.5.2
 
 > Adicionado suporte a documento em VSUser
 
+> Adicionado suporte a receber os dados do usuário criptografados e a descriptografar
+
 *ContentPDF -> 2.5.2*
 
 > Adicionado double tap to zoom
