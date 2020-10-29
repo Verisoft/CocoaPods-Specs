@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform     = :ios, '11.0' 
   s.name         = 'VSContent'
-  s.version      = '2.5.4'
+  s.version      = '2.5.5'
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and now support to swift 4.2.'
@@ -147,13 +147,13 @@ Pod::Spec.new do |s|
     audio.dependency 'AlamofireImage'
   end
 
-  s.subspec 'Subscription' do |sub|
-    sub.source_files = 'VSContent/SwiftSource/Subscription/2.3.2/**/*'
-    sub.exclude_files = 'README.md'
-    sub.dependency 'VSContent/Core'
-    sub.dependency 'VSCoreDataEngine'
-    sub.dependency 'SwiftyJSON'
-    sub.dependency 'VSRequest'
+  s.subspec 'Subscription' do |subsc|
+    subsc.source_files = 'VSContent/SwiftSource/Subscription/2.3.2/**/*'
+    subsc.exclude_files = 'README.md'
+    subsc.dependency 'VSContent/Core'
+    subsc.dependency 'VSCoreDataEngine'
+    subsc.dependency 'SwiftyJSON'
+    subsc.dependency 'VSRequest'
   end
 
   s.subspec 'Tracker' do |tracker|
