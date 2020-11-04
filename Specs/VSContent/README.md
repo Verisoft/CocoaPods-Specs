@@ -1,3 +1,34 @@
+Versão 2.5.5
+============
+
+*Subscription -> 2.3.2*
+
+> Melhorias no restore do recibo original de transação da Apple
+
+*ContentHTML -> 2.2.2*
+
+> Alterado cores para novo esquema de Flavour
+
+*ContentQuiz  -> 2.3.1*
+
+> Alterado cores para novo esquema de Flavour
+
+*ContentPDF -> 2.5.4*
+
+> Fix crash quando passar página rápido demais
+
+*ContentAudio -> 2.3.6*
+
+> Melhoria: quando player está pausado, botão de habilitar sleep mode fica desligado
+
+Versão 2.5.4
+============
+
+*Core -> 2.4.4*
+
+> Adicionado suporte a AuthenticationMethod
+
+
 Versão 2.5.2
 ============
 
@@ -13,7 +44,7 @@ Versão 2.5.2
 
 *ContentEpub -> 2.6.3*
 
-Alterado ordem dos items de menu do leitor
+> Alterado ordem dos items de menu do leitor
 
 Versão 2.5.1
 ============
