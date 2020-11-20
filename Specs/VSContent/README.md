@@ -1,3 +1,14 @@
+Versão 2.5.6
+============
+
+*ContentPDF -> 2.5.4*
+
+> Adicionado opção de marcadores
+
+*ContentEpub -> 2.6.4*
+
+> Adicionado suporte a passar página tocando nos cantos
+
 Versão 2.5.5
 ============
 
