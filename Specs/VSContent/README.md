@@ -5,7 +5,7 @@ Versão 2.5.6
 
 > Adicionado opção de marcadores
 
-*ContentEPub -> 2.6.4*
+*ContentEpub -> 2.6.4*
 
 > Adicionado suporte a passar página tocando nos cantos
 
