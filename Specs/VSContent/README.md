@@ -9,6 +9,10 @@ Versão 2.5.6
 
 > Adicionado suporte a passar página tocando nos cantos
 
+*ContentAudio -> 2.3.7*
+
+> Adicionado suporte a tela de fim de task ao concluir um áudio
+
 Versão 2.5.5
 ============
 
