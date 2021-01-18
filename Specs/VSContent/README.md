@@ -1,3 +1,12 @@
+Versão 2.5.7
+============
+
+*ContentEpub -> 2.6.5*
+
+> Corrigido bug de passagem de página tocando nos cantos 
+
+> Melhorado suporte a livros de layout fixo
+
 Versão 2.5.6
 ============
 
