@@ -1,3 +1,10 @@
+Versão 2.5.8
+============
+
+*Subscription -> 2.3.3*
+
+> Adicionado método para checar se usuário usou o período grátis da assinatura ou não
+
 Versão 2.5.7
 ============
 
