@@ -7,6 +7,15 @@ Versão 2.5.7
 
 > Melhorado suporte a livros de layout fixo
 
+
+*ContentPDF -> 2.5.6*
+
+> Grande refactoring no leitor
+
+> Adicionado suporte a busca
+
+> Adicionado suporte a anotações
+
 Versão 2.5.6
 ============
 
