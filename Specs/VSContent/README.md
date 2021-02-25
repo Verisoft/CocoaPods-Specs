@@ -5,6 +5,10 @@ Versão 2.5.8
 
 > Adicionado método para checar se usuário usou o período grátis da assinatura ou não
 
+*ContentAudio -> 2.3.8*
+
+> Corrigido problema que quando se mexia no slider de tempo o mesmo não era atualizado no player nativo do iOS quando o app era minimizado
+
 Versão 2.5.7
 ============
 
