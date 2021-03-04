@@ -1,3 +1,19 @@
+Versão 2.5.9
+============
+
+*ContentEpub -> 2.6.6*
+
+> Adicionado suporte a salvar progresso a cada mudança de página
+
+*ContentAudio -> 2.3.9*
+
+> Adicionado suporte a salvar progresso a cada segundo passado
+
+*Core -> 2.4.5*
+
+> Adicionado suporte a não postar notificações e eventos quando Content é salvo
+
+
 Versão 2.5.8
 ============
 
