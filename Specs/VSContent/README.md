@@ -13,6 +13,8 @@ Versão 2.5.9
 
 > Adicionado suporte a não postar notificações e eventos quando Content é salvo
 
+> Adicionado método que recupera qual a versão atual do app no servidor e salva no UserDefaults
+
 
 Versão 2.5.8
 ============
