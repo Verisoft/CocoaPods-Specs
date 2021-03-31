@@ -5,6 +5,14 @@ Versão 2.5.9
 
 > Adicionado suporte a salvar progresso a cada mudança de página
 
+> Agora a tela do celular não bloqueia mais durante a leitura do livro
+
+*ContentPDF -> 2.5.7*
+
+> Adicionado suporte a salvar progresso a cada mudança de página
+
+> Agora a tela do celular não bloqueia mais durante a leitura do PDF
+
 *ContentAudio -> 2.3.9*
 
 > Adicionado suporte a salvar progresso a cada segundo passado
