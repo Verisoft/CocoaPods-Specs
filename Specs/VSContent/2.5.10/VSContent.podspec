@@ -72,7 +72,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'PDF' do |pdf|
-    pdf.source_files = 'VSContent/SwiftSource/ContentPDF/2.5.6/**/*'
+    pdf.source_files = 'VSContent/SwiftSource/ContentPDF/2.5.76/**/*'
     pdf.exclude_files = 'README.md'
     pdf.dependency 'VSContent/Core'
     pdf.dependency 'VSCoreDataEngine'
