@@ -1,3 +1,17 @@
+
+Versão 2.5.10
+============
+
+*ContentEpub -> 2.6.7*
+
+> Adicionado suporte a exibir uma view de incentivo a assinatura via Modelbridge
+
+
+*Core -> 2.4.6*
+
+> Adicionado suporte a exibir uma view de incentivo a assinatura via Modelbridge
+
+
 Versão 2.5.9
 ============
 
