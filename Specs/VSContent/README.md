@@ -1,4 +1,15 @@
 
+Versão 2.5.11
+============
+
+*ContentPdf -> 2.5.8*
+
+> Adicionado suporte a exibir uma view de incentivo a assinatura via Modelbridge
+
+*Core -> 2.4.7*
+
+> Adicionado suporte ao parâmetro "root" em AuthenticationMethod
+
 Versão 2.5.10
 ============
 
