@@ -41,10 +41,10 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'HTML' do |html|
-    html.source_files = 'VSContent/SwiftSource/ContentHTML/2.2.2/**/*'
+    html.source_files = 'VSContent/SwiftSource/ContentHTML/2.2.3/**/*'
     html.exclude_files = 'README.md'
     html.resources = [
-    'VSContent/SwiftSource/ContentHTML/2.2.2/**/*.{js,css, html}',
+    'VSContent/SwiftSource/ContentHTML/2.2.3/**/*.{js,css, html}',
     ]    
     html.dependency 'VSContent/Core'
     html.dependency 'VSCoreDataEngine'
