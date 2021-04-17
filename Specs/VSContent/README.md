@@ -10,6 +10,16 @@ Versão 2.5.11
 
 > Adicionado suporte ao parâmetro "root" em AuthenticationMethod
 
+> Corrigido um problema no método isSingleContent() dentro de ContentTask
+
+
+*ContentHTML -> 2.2.3*
+
+> Melhorias no leitor para funcionar com novo HTML do UOL (agora não seta o padding de 20px neste tipo de conteúdo)
+
+> Botão de finalizar agora ocupa 100% da largura e não possui mais cantos arredondados
+
+
 Versão 2.5.10
 ============
 
