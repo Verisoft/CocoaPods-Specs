@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.4.7/**/*'
-    cx.exclude_files = 'README.md'
+    cx.exclude_files = 'VSContent/SwiftSource/Core/2.4.7/README.md'
     cx.dependency 'VSCoreDataEngine'
     cx.dependency 'VSRequest'
     cx.dependency 'Zip'
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Epub' do |epub|
     epub.source_files = 'VSContent/SwiftSource/ContentEpub/2.6.7/**/*.{swift}'
-    epub.exclude_files = 'README.md'
+    epub.exclude_files = 'VSContent/SwiftSource/ContentEpub/2.6.7/README.md'
     epub.resources = [
     'VSContent/SwiftSource/ContentEpub/2.6.7/**/*.{js,css,html,storyboard,xib}',
     ]
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'HTML' do |html|
     html.source_files = 'VSContent/SwiftSource/ContentHTML/2.2.3/**/*'
-    html.exclude_files = 'README.md'
+    html.exclude_files = 'VSContent/SwiftSource/ContentHTML/2.2.3/README.md'
     html.resources = [
     'VSContent/SwiftSource/ContentHTML/2.2.3/**/*.{js,css, html}',
     ]    
@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'PPT' do |ppt|
     ppt.source_files = 'VSContent/SwiftSource/ContentPPT/2.3.0/**/*'
-    ppt.exclude_files = 'README.md'
+    ppt.exclude_files = 'VSContent/SwiftSource/ContentPPT/2.3.0/README.md'
     ppt.dependency 'VSContent/Core'
     ppt.dependency 'VSCoreDataEngine'
     ppt.dependency 'VSRequest'
@@ -73,7 +73,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'PDF' do |pdf|
     pdf.source_files = 'VSContent/SwiftSource/ContentPDF/2.5.8/**/*'
-    pdf.exclude_files = 'README.md'
+    pdf.exclude_files = 'VSContent/SwiftSource/ContentPDF/2.5.8/README.md'
     pdf.dependency 'VSContent/Core'
     pdf.dependency 'VSCoreDataEngine'
     pdf.dependency 'VSRequest'
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Video' do |video|
     video.source_files = 'VSContent/SwiftSource/ContentVideo/2.3.2/**/*'
-    video.exclude_files = 'README.md'
+    video.exclude_files = 'VSContent/SwiftSource/ContentVideo/2.3.2/README.md'
     video.dependency 'VSContent/Core'
     video.dependency 'VSCoreDataEngine'
     video.dependency 'SwiftHEXColors'
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Quiz' do |quiz|
     quiz.source_files = 'VSContent/SwiftSource/ContentQuiz/2.3.1/**/*'
-    quiz.exclude_files = 'README.md'
+    quiz.exclude_files = 'VSContent/SwiftSource/ContentQuiz/2.3.1/README.md'
     quiz.resources = [
     'VSContent/SwiftSource/ContentQuiz/2.3.1/**/*.{html,js,css,json,map}',
     ]
@@ -112,7 +112,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Link' do |link|
     link.source_files = 'VSContent/SwiftSource/ContentLink/2.0.1/**/*'
-    link.exclude_files = 'README.md'
+    link.exclude_files = 'VSContent/SwiftSource/ContentLink/2.0.1/README.md'
     link.dependency 'VSContent/Core'
     link.dependency 'VSCoreDataEngine'
     link.dependency 'VSRequest'
@@ -125,7 +125,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Text' do |txt|
     txt.source_files = 'VSContent/SwiftSource/ContentText/2.0.0/**/*'
-    txt.exclude_files = 'README.md'
+    txt.exclude_files = 'VSContent/SwiftSource/ContentText/2.0.0/README.md'
     txt.dependency 'VSContent/Core'
     txt.dependency 'VSCoreDataEngine'
     txt.dependency 'VSRequest'
@@ -138,7 +138,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Audio' do |audio|
     audio.source_files = 'VSContent/SwiftSource/ContentAudio/2.3.9/**/*'
-    audio.exclude_files = 'README.md'
+    audio.exclude_files = 'VSContent/SwiftSource/ContentAudio/2.3.9/README.md'
     audio.dependency 'VSContent/Core'
     audio.dependency 'VSCoreDataEngine'
     audio.dependency 'SwiftHEXColors'
@@ -149,7 +149,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Subscription' do |subsc|
     subsc.source_files = 'VSContent/SwiftSource/Subscription/2.3.3/**/*'
-    subsc.exclude_files = 'README.md'
+    subsc.exclude_files = 'VSContent/SwiftSource/Subscription/2.3.3/README.md'
     subsc.dependency 'VSContent/Core'
     subsc.dependency 'VSCoreDataEngine'
     subsc.dependency 'SwiftyJSON'
@@ -158,7 +158,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Tracker' do |tracker|
     tracker.source_files = 'VSContent/SwiftSource/Tracker/2.0.1/**/*'
-    tracker.exclude_files = 'README.md'
+    tracker.exclude_files = 'VSContent/SwiftSource/Tracker/2.0.1/README.md'
     tracker.dependency 'VSCoreDataEngine'
     tracker.dependency 'VSRequest'
   end
