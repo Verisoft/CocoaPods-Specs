@@ -12,6 +12,7 @@ Versão 2.5.11
 
 > Corrigido um problema no método isSingleContent() dentro de ContentTask
 
+> Corrigido problema em que as categorias não eram parseadas dentro de ContentTask
 
 *ContentHTML -> 2.2.3*
 
