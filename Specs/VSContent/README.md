@@ -1,4 +1,16 @@
 
+Versão 2.5.12
+============
+
+*ContentPdf -> 2.5.9*
+
+> Corrigido bugs relacionados ao novo Xcode (12.5)
+
+*ContentEpub -> 2.6.8*
+
+> Corrigido bugs relacionados ao novo Xcode (12.5)
+
+
 Versão 2.5.11
 ============
 
