@@ -10,6 +10,10 @@ Versão 2.5.12
 
 > Corrigido bugs relacionados ao novo Xcode (12.5)
 
+*ContentAudio -> 2.3.10*
+
+> Corrigido bug que causava problema na exibição/dismiss de view controller quando amostra chegava ao final
+
 
 Versão 2.5.11
 ============
