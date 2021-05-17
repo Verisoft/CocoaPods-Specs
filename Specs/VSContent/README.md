@@ -2,6 +2,14 @@
 Versão 2.5.12
 ============
 
+*Core -> 2.4.8*
+
+> AuthenticationMethod não root retorna ordenado por nome agora e não mais por order.
+
+> Adicionado suporte a AuthenticationMethod MSISDNVOUCHER
+
+> Alterações no fluxo de autenticação para suportar login com Pincode fixo em MSISDN
+
 *ContentPdf -> 2.5.9*
 
 > Corrigido bugs relacionados ao novo Xcode (12.5)
@@ -9,6 +17,10 @@ Versão 2.5.12
 *ContentEpub -> 2.6.8*
 
 > Corrigido bugs relacionados ao novo Xcode (12.5)
+
+*ContentAudio -> 2.3.10*
+
+> Corrigido bug que causava problema na exibição/dismiss de view controller quando amostra chegava ao final
 
 
 Versão 2.5.11
