@@ -2,6 +2,14 @@
 Versão 2.5.12
 ============
 
+*Core -> 2.4.8*
+
+> AuthenticationMethod não root retorna ordenado por nome agora e não mais por order.
+
+> Adicionado suporte a AuthenticationMethod MSISDNVOUCHER
+
+> Alterações no fluxo de autenticação para suportar login com Pincode fixo em MSISDN
+
 *ContentPdf -> 2.5.9*
 
 > Corrigido bugs relacionados ao novo Xcode (12.5)
