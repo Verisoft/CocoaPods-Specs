@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/Verisoft/CocoaPods-Source'
   s.author       = {'Joao Molinari' => 'joao.molinari@verisoft.com.br'}
   s.summary      = 'Default content for Verisoft products after server refactoring (2017) and now support to swift 4.2.'
-  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "bd82f0992d0713bd7b6e3bcf62ef2355ba221e0e"}
+  s.source       = {:git => "https://github.com/Verisoft/CocoaPods-Source.git", :commit => "dced7042ef6204434e5c610c822daef24a2af581"}
 
   s.subspec 'Core' do |cx|
     cx.source_files = 'VSContent/SwiftSource/Core/2.4.8/**/*'
@@ -148,8 +148,8 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Subscription' do |subsc|
-    subsc.source_files = 'VSContent/SwiftSource/Subscription/2.3.3/**/*'
-    subsc.exclude_files = 'VSContent/SwiftSource/Subscription/2.3.3/README.md'
+    subsc.source_files = 'VSContent/SwiftSource/Subscription/2.3.4/**/*'
+    subsc.exclude_files = 'VSContent/SwiftSource/Subscription/2.3.4/README.md'
     subsc.dependency 'VSContent/Core'
     subsc.dependency 'VSCoreDataEngine'
     subsc.dependency 'SwiftyJSON'
