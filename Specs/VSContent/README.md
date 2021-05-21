@@ -22,6 +22,10 @@ Versão 2.5.12
 
 > Corrigido bug que causava problema na exibição/dismiss de view controller quando amostra chegava ao final
 
+*Subscription -> 2.3.4*
+
+> Adicionado novo método que retorna no msisdn/check o status da assinatura (usado para voucher e assinatura fixa)
+
 
 Versão 2.5.11
 ============
