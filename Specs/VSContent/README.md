@@ -1,3 +1,9 @@
+Versão 2.5.13
+============
+
+*Core -> 2.4.9*
+
+> Corrigido função "removeLocalAssets" de Flavour que não apaga os assets locais para baixar atualização enviada pelo servidor
 
 Versão 2.5.12
 ============
