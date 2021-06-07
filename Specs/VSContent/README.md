@@ -10,6 +10,8 @@ Versão 2.5.12
 
 > Alterações no fluxo de autenticação para suportar login com Pincode fixo em MSISDN
 
+> Corrigido função "removeLocalAssets" de Flavour que não apaga os assets locais para baixar atualização enviada pelo servidor
+
 *ContentPdf -> 2.5.9*
 
 > Corrigido bugs relacionados ao novo Xcode (12.5)
