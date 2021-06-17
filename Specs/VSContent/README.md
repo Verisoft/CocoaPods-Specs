@@ -5,6 +5,10 @@ Versão 2.5.13
 
 > Corrigido função "removeLocalAssets" de Flavour que não apaga os assets locais para baixar atualização enviada pelo servidor
 
+*ContentAudio -> 2.3.11*
+
+> Velocidade do áudio agora é salva no UserDefaults por audiolivro e restaura na velocidade selecionada pelo usuário quando aberto
+
 Versão 2.5.12
 ============
 
