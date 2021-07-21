@@ -1,3 +1,25 @@
+Versão 2.5.14
+============
+
+*ContentPdf -> 2.4.10*
+
+> Aumentado capacidade de zoom nas páginas
+
+*ContentEpub -> 2.6.10*
+
+> Grande refactoring na parte de TTS (Text to Speech)
+
+> Alterações na interface do leitor
+
+> Adicionado botão que finaliza leitura
+
+> Adicionado botão para share de livro
+
+*Core -> 2.4.10*
+
+> Adicionado método para compartilhar conteúdo em ContentBridge
+
+
 Versão 2.5.13
 ============
 
