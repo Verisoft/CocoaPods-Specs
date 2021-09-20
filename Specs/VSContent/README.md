@@ -1,3 +1,25 @@
+Versão 2.5.15
+============
+
+*ContentPdf -> 2.4.10*
+
+> Alterações no layout para ficar igual ao leitor de ePub
+
+> Correções de problemas de rotação
+
+> Adicionado esquema para salvar thumbnails no userdefaults como Data a partir de conversão para JPEG em 20% de qualidade
+
+*ContentEpub -> 2.7.1*
+
+> Adicionado Tutorial na 1a abertura
+
+> Alterado cor do sépia
+
+*Subscription -> 2.3.5*
+
+> Adicionado suporte a salvar o renewPeriod para poder utilizar no botão VSSubcription
+
+
 Versão 2.5.14
 ============
 
