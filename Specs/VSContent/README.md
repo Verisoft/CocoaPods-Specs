@@ -1,6 +1,10 @@
 Versão 2.5.15
 ============
 
+*Core -> 2.4.11*
+
+> Alterado método no BackgroundServices que caso ele seja ativado sem conexão e com notificação de mensagens para não fazer mais retry e retornar erro
+
 *ContentPdf -> 2.4.10*
 
 > Alterações no layout para ficar igual ao leitor de ePub
