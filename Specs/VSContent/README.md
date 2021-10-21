@@ -1,3 +1,25 @@
+Versão 2.5.16
+============
+
+*ContentPdf -> 2.6.1*
+
+> Adicionado log de evento de anotação e marcador
+
+> Corrigido bug com tag view de assinatura que não ocupava tela cheia
+
+*ContentEpub -> 2.7.2*
+
+> Adicionado log de evento de anotação, marcador, alterações de layout e TTS
+
+*ContentHTML -> 2.2.4*
+
+> CSS padrão agora só é adicionado caso não haja nenhum CSS na pasta
+
+*ContentAudio -> 2.3.12*
+
+> Adicionado log de evento de clique em temporizador e velocidade de reprodução
+
+
 Versão 2.5.15
 ============
 
@@ -5,7 +27,7 @@ Versão 2.5.15
 
 > Alterado método no BackgroundServices que caso ele seja ativado sem conexão e com notificação de mensagens para não fazer mais retry e retornar erro
 
-*ContentPdf -> 2.4.10*
+*ContentPdf -> 2.6.0*
 
 > Alterações no layout para ficar igual ao leitor de ePub
 
