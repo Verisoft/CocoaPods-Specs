@@ -1,3 +1,14 @@
+Versão 2.5.17
+============
+
+*ContentEpub -> 2.7.3*
+
+> Adicionado suporte a landscape
+
+*ContentAudio -> 2.3.13*
+
+> Adicionado suporte a landscape
+
 Versão 2.5.16
 ============
 
