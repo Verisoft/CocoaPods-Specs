@@ -1,3 +1,16 @@
+Versão 2.5.18
+=============
+
+*ContentEpub -> 2.7.4*
+
+> Correções para nova versão do Xcode
+
+> Melhorias na transição entre landscape/portrait
+
+*ContentAudio -> 2.3.14*
+
+> Corrigido bug que sempre deixava o "próximo" habilitado mesmo quando era o último item
+
 Versão 2.5.17
 ============
 
@@ -9,9 +22,7 @@ Versão 2.5.17
 
 > Adicionado suporte a landscape
 
-*ContentAudio -> 2.3.14*
 
-> Corrigido bug que sempre deixava o "próximo" habilitado mesmo quando era o último item
 
 Versão 2.5.16
 ============
