@@ -9,6 +9,10 @@ Versão 2.5.17
 
 > Adicionado suporte a landscape
 
+*ContentAudio -> 2.3.14*
+
+> Corrigido bug que sempre deixava o "próximo" habilitado mesmo quando era o último item
+
 Versão 2.5.16
 ============
 
