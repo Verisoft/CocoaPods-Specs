@@ -11,6 +11,8 @@ Versão 2.5.18
 
 > Corrigido bug que sempre deixava o "próximo" habilitado mesmo quando era o último item
 
+> Desabilitado botões de retroceder/avançar quando for o primeiro ou o último item
+
 Versão 2.5.17
 ============
 
