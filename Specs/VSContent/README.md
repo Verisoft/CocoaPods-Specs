@@ -7,6 +7,8 @@ Versão 2.5.18
 
 > Melhorias na transição entre landscape/portrait
 
+> Removido rotação de tela quando TTS estiver ativo
+
 *ContentAudio -> 2.3.14*
 
 > Corrigido bug que sempre deixava o "próximo" habilitado mesmo quando era o último item
