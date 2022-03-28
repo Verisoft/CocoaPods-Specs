@@ -13,7 +13,7 @@ Versão 2.6.0
 
 > Adicionado suporte a múltiplos AccessPlan
 
-> *É necessário update de banco de dados por conta das alterações na parte de categoria, task e plano de acesso.*
+> **É necessário update de banco de dados por conta das alterações na parte de categoria, task e plano de acesso.**
 
 *Subscription -> 2.4.0*
 
