@@ -1,3 +1,39 @@
+Versão 2.6.0
+=============
+
+*Core -> 2.5.0*
+
+> Correção de problemas no link de categoria com contentas
+
+> Adicionado métodos com completion/failed em algumas chamadas de serviço
+
+> Merge de AccessPlan com Core
+
+> CarrierBillingServices movido para Core
+
+> Adicionado suporte a múltiplos AccessPlan
+
+> *É necessário update de banco de dados por conta das alterações na parte de categoria, task e plano de acesso.*
+
+*Subscription -> 2.4.0*
+
+> Adicionado métodos com completion/failed em algumas chamadas de serviço
+
+> Removido classes de AccessPlan e CarrierBilling
+
+*ContentAudio -> 2.3.15*
+
+> Melhorado suporte no leitor por conta de Minibooks
+
+> Corrigido crash 
+
+*ContentEpub 2.8.0*
+
+> Correção de bug em anotações
+> 
+> Correção de bug no tutorial quando visualizado no iPad
+
+
 Versão 2.5.18
 =============
 
