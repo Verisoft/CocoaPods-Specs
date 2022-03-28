@@ -27,7 +27,7 @@ Versão 2.6.0
 
 > Corrigido crash 
 
-*ContentEpub 2.8.0*
+*ContentEpub -> 2.8.0*
 
 > Correção de bug em anotações
 > 
