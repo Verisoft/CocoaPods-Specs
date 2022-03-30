@@ -15,6 +15,8 @@ Versão 2.6.0
 
 > Adicionado suporte a múltiplos AccessPlan
 
+> AccessPlan agora tem status (ativo/inativo) e id de plano
+
 *Subscription -> 2.4.0*
 
 > Adicionado métodos com completion/failed em algumas chamadas de serviço
