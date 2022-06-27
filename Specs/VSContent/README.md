@@ -1,3 +1,14 @@
+Versão 2.6.1
+=============
+
+*ContentEpub -> 2.8.1*
+
+> Adicionado suporte a seleção de fonte
+
+> Correção de bug que não persistia  configurações de margem/espaçamento de fonte
+
+> Correção de bug que não passava página no TTS
+
 Versão 2.6.0
 =============
 
