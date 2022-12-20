@@ -1,3 +1,10 @@
+Versão 2.6.2
+=============
+
+*Core -> 2.5.1*
+
+> Alterada a formatção do predicate de consulta do CoreData para suportar int64/long value sem quebrar
+
 Versão 2.6.1
 =============
 
