@@ -1,3 +1,10 @@
+Versão 2.6.3
+=============
+
+*Core -> 2.5.2*
+
+> Adicionado o tipo de plano AccessPlanPlatinum
+
 Versão 2.6.2
 =============
 
