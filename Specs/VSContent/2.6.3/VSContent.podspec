@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     cx.dependency 'Zip'
     cx.dependency 'SwiftHEXColors'
     cx.dependency 'SVProgressHUD'
-    cx.dependency 'SwiftyJSON'
+    cx.dependency 'SwiftyJSON', '5.0.1'
     cx.dependency 'CryptoSwift'    
     cx.dependency 'VSDRMEngine'  
   end
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
     epub.dependency 'Zip'
     epub.dependency 'SwiftHEXColors'
     epub.dependency 'SVProgressHUD'
-    epub.dependency 'SwiftyJSON'
+    epub.dependency 'SwiftyJSON', '5.0.1'
     epub.dependency 'CryptoSwift'
     epub.dependency 'MenuItemKit'
     epub.dependency 'SimpleImageViewer'
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
     html.dependency 'Zip'
     html.dependency 'SwiftHEXColors'
     html.dependency 'SVProgressHUD'
-    html.dependency 'SwiftyJSON'
+    html.dependency 'SwiftyJSON', '5.0.1'
     html.dependency 'CryptoSwift'    
     html.dependency 'VSDRMEngine'  
   end
@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
     ppt.dependency 'Zip'
     ppt.dependency 'SwiftHEXColors'
     ppt.dependency 'SVProgressHUD'
-    ppt.dependency 'SwiftyJSON'
+    ppt.dependency 'SwiftyJSON', '5.0.1'
     ppt.dependency 'CryptoSwift'    
     ppt.dependency 'VSDRMEngine'  
   end
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
     pdf.dependency 'VSRequest'
     pdf.dependency 'SwiftHEXColors'
     pdf.dependency 'SVProgressHUD'
-    pdf.dependency 'SwiftyJSON'
+    pdf.dependency 'SwiftyJSON', '5.0.1'
     pdf.dependency 'CryptoSwift'    
   end
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
     video.dependency 'VSCoreDataEngine'
     video.dependency 'SwiftHEXColors'
     video.dependency 'SVProgressHUD'
-    video.dependency 'SwiftyJSON'
+    video.dependency 'SwiftyJSON', '5.0.1'
     video.dependency 'CryptoSwift'    
   end
 
